@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/mod3spacermodifier" />
             <option value="$PROJECT_DIR$/mod4gestioninteraction" />
             <option value="$PROJECT_DIR$/mod4viewmodel" />
+            <option value="$PROJECT_DIR$/mod4viewmodelnotes" />
           </set>
         </option>
       </GradleProjectSettings>
