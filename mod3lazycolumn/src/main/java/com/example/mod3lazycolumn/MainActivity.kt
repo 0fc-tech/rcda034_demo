@@ -45,6 +45,9 @@ class MainActivity : ComponentActivity() {
                         item{
                             Text("Liste des Items", style = Typography.displayMedium)
                         }
+                        items(20){
+                            Text("Item numéro $it")
+                        }
                         items(listItems){
                             Log.i(TAG, "onCreate: $it")
                             OutlinedCard(Modifier
