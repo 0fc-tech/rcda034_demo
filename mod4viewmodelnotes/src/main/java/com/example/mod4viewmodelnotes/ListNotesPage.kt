@@ -58,13 +58,10 @@ fun ListNotesPage(modifier: Modifier = Modifier,
         modifier=Modifier.fillMaxSize()
 
     ) { innerPadding ->
-    Column(Modifier.padding(innerPadding).fillMaxSize()) {
-        LazyColumn {
+        LazyColumn(Modifier.padding(innerPadding)) {
             items(listNotes) {
                 Text(it.toString())
             }
-        }
-
 
     }
     }
